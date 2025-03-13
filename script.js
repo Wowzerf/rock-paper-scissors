@@ -10,3 +10,18 @@ function getComputerChoice() {
     }
 }
 
+function getHumanChoice() {
+    let askChoice = window.prompt("Rock, Paper, or Scissors ? ", "");
+
+    if (askChoice === "Rock") {
+        return alert("You chose " + askChoice);
+    } else if (askChoice === "Paper") {
+        return alert("You chose " + askChoice);
+    } else if (askChoice === "Scissors") {
+        return alert("You chose " + askChoice);
+    } else {
+        return alert("Invalid")
+    }
+}
+
+getHumanChoice();

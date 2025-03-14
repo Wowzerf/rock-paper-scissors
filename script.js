@@ -28,3 +28,7 @@ function getHumanChoice() {
 }
 
 getHumanChoice();
+
+function playRound(humanChoice, computerChoice) {
+    
+}

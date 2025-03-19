@@ -23,12 +23,8 @@ function getHumanChoice() {
     } else if (askChoice === "Scissors") {
         return alert("You chose " + askChoice);
     } else {
-        return alert("Invalid")
+        return alert("Invalid");
     }
 }
 
 getHumanChoice();
-
-function playRound(humanChoice, computerChoice) {
-    
-}

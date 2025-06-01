@@ -21,6 +21,6 @@ function getHumanChoice() {
     }
 
 // Logic to play a single round
-function playRound() {
-    
+function playRound(humanChoice, computerChoice) {
+
 }

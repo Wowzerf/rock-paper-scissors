@@ -9,9 +9,9 @@ function getComputerChoice() {
     } else {
        return console.log("scissors");
     }
+}
 
-    function getHumanChoice() {
+function getHumanChoice() {
         let askChoice = prompt("Rock,Paper, or Scissors?");
         return alert(askChoice);
     }
-}

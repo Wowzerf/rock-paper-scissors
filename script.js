@@ -10,4 +10,7 @@ function getComputerChoice() {
        return console.log("scissors");
     }
 
+    function getHumanChoice() {
+        
+    }
 }

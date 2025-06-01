@@ -19,3 +19,8 @@ function getHumanChoice() {
         let askChoice = prompt("Rock,Paper, or Scissors?");
         return alert(askChoice);
     }
+
+// Logic to play a single round
+function playRound() {
+    
+}

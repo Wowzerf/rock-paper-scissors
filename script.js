@@ -11,6 +11,7 @@ function getComputerChoice() {
     }
 }
 
+// Returns alert of player input from prompt 
 function getHumanChoice() {
         let askChoice = prompt("Rock,Paper, or Scissors?");
         return alert(askChoice);

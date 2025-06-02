@@ -23,7 +23,7 @@ function getHumanChoice() {
 // Logic to play a single round
 function playRound(humanChoice, computerChoice) {
     if(humanChoice.toLowerCase() === "rock" && computerChoice === "paper") {
-        alert("You lose! Paper beats Rock.")
+        alert("You lose! Paper beats Rock.");
         return console.log(`Computer Score : ${++computerScore}`);
     } else if (humanChoice.toLowerCase() === "rock" && computerChoice === "scissors") {
         alert("You Win! Rock beats Scissors.");

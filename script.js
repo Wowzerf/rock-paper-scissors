@@ -23,6 +23,8 @@ function getHumanChoice() {
 // Logic to play a single round
 function playRound(humanChoice, computerChoice) {
    if(humanChoice.toLowerCase() === "rock") {
-    
+    if(computerChoice === "paper") {
+        
+    }
    }
 }

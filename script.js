@@ -24,6 +24,6 @@ function getHumanChoice() {
 function playRound(humanChoice, computerChoice) {
     if(humanChoice.toLowerCase() === "rock" && computerChoice === "paper") {
         alert("You lose! Paper beats Rock.")
-        
+        return console.log(`Computer Score : ${++computerScore}`);
     }
 }

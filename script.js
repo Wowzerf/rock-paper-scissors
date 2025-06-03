@@ -28,6 +28,7 @@ function playRound(humanChoice, computerChoice) {
         return console.log(`Computer Score : ${++computerScore}`);
     } else if(computerChoice === "scissors") {
         alert("You win! Rock beats Scissors");
+        return console.log(`Human Score : ${++humanScore}`);
     }
    }
 }

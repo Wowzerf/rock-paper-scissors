@@ -33,6 +33,8 @@ function playRound(humanChoice, computerChoice) {
         alert("It's a draw!");
     }
    } else if(humanChoice.toLowerCase() === "paper") {
-    
+        if(computerChoice === "rock") {
+            
+        }
    }
 }

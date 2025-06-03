@@ -36,8 +36,8 @@ function playRound(humanChoice, computerChoice) {
         if(computerChoice === "rock") {
             alert("You win! Paper beats Rock.");
             return console.log(`Human Score : ${++humanScore}`);
-        } else if {
-            
+        } else if(computerChoice === "scissors") {
+
         }
    }
 }

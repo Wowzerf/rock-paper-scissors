@@ -30,7 +30,7 @@ function playRound(humanChoice, computerChoice) {
         alert("You win! Rock beats Scissors");
         return console.log(`Human Score : ${++humanScore}`);
     } else {
-        
+        alert("It's a draw!");
     }
    }
 }

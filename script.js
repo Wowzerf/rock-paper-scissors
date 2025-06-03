@@ -32,5 +32,7 @@ function playRound(humanChoice, computerChoice) {
     } else {
         alert("It's a draw!");
     }
+   } else if(humanChoice.toLowerCase() === "paper") {
+    
    }
 }

@@ -49,6 +49,8 @@ function playRound(humanChoice, computerChoice) {
     } else if(computerChoice === "paper") {
         alert("You win! Scissors beat Paper.")
         return console.log(`Human Score : ${++humanScore}`);
+    } else {
+        
     }
    }
 }

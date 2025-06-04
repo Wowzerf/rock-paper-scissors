@@ -50,7 +50,7 @@ function playRound(humanChoice, computerChoice) {
         alert("You win! Scissors beat Paper.")
         return console.log(`Human Score : ${++humanScore}`);
     } else {
-        
+        alert("It's a draw!");
     }
    }
 }

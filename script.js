@@ -45,6 +45,7 @@ function playRound(humanChoice, computerChoice) {
    } else if (humanChoice.toLowercase === "scissors"()) {
     if(computerChoice === "rock") {
         alert("You Lose! Rock beats Paper.")
+        return console.log(`Computer Score : ${computerScore}`);
     }
    }
 }

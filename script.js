@@ -43,6 +43,8 @@ function playRound(humanChoice, computerChoice) {
             alert("It's a draw!");
         }
    } else if (humanChoice.toLowercase === "scissors"()) {
-
+    if(computerChoice === "rock") {
+        
+    }
    }
 }

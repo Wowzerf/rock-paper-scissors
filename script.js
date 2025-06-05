@@ -14,7 +14,7 @@ function getComputerChoice() {
     }
 }
 
-// Returns alert of player input from prompt 
+// Returns player input from prompt 
 function getHumanChoice() {
         let askChoice = prompt("Rock,Paper, or Scissors?");
         return askChoice;
@@ -24,33 +24,33 @@ function getHumanChoice() {
 function playRound(humanChoice, computerChoice) {
    if(humanChoice.toLowerCase() === "rock") {
     if(computerChoice === "paper") {
-        alert("You lose! Paper beats Rock.");
+        console.log("You lose! Paper beats Rock.");
         return console.log(`Computer Score : ${++computerScore}`);
     } else if(computerChoice === "scissors") {
-        alert("You win! Rock beats Scissors");
+        console.log("You win! Rock beats Scissors");
         return console.log(`Human Score : ${++humanScore}`);
     } else {
-        alert("It's a draw!");
+        console.log("It's a draw!");
     }
    } else if(humanChoice.toLowerCase() === "paper") {
         if(computerChoice === "rock") {
-            alert("You win! Paper beats Rock.");
+            console.log("You win! Paper beats Rock.");
             return console.log(`Human Score : ${++humanScore}`);
         } else if(computerChoice === "scissors") {
-            alert("You lose! Scissors beats Paper.");
+            console.log("You lose! Scissors beats Paper.");
             return console.log(`Computer Score : ${++computerScore}`);
         } else {
-            alert("It's a draw!");
+            console.log("It's a draw!");
         }
    } else if(humanChoice.toLowerCase() === "scissors") {
     if(computerChoice === "rock") {
-        alert("You Lose! Rock beats Paper.");
+        console.log("You Lose! Rock beats Paper.");
         return console.log(`Computer Score : ${++computerScore}`);
     } else if(computerChoice === "paper") {
-        alert("You win! Scissors beat Paper.");
+        console.log("You win! Scissors beat Paper.");
         return console.log(`Human Score : ${++humanScore}`);
     } else {
-        alert("It's a draw!");
+        console.log("It's a draw!");
     }
    }
 }

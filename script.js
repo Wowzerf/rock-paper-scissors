@@ -8,7 +8,7 @@ function getComputerChoice() {
     if (randomizer === 1) {
         return "rock";
     } else if (randomizer === 2) {
-       return console.log("paper");
+       return "paper";
     } else {
        return console.log("scissors");
     }

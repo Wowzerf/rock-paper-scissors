@@ -10,7 +10,7 @@ function getComputerChoice() {
     } else if (randomizer === 2) {
        return "paper";
     } else {
-       return console.log("scissors");
+       return "scissors";
     }
 }
 

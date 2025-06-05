@@ -17,7 +17,7 @@ function getComputerChoice() {
 // Returns alert of player input from prompt 
 function getHumanChoice() {
         let askChoice = prompt("Rock,Paper, or Scissors?");
-        return console.log(askChoice);
+        return askChoice;
     }
 
 // Logic to play a single round

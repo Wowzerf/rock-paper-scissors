@@ -6,7 +6,7 @@ function getComputerChoice() {
     let randomizer = Math.floor(Math.random() * 3) + 1;
 
     if (randomizer === 1) {
-        return console.log("rock");
+        return "rock";
     } else if (randomizer === 2) {
        return console.log("paper");
     } else {

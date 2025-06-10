@@ -64,5 +64,8 @@ function playGame() {
         playRound(humanSelection, computerSelection);
     }
     
+    if(humanScore >= 3) {
+        
+    }
 }
 playGame();

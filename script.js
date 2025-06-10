@@ -65,7 +65,7 @@ function playGame() {
     }
     
     if(humanScore >= 3) {
-        
+        console.log("You win the match!");
     }
 }
 playGame();

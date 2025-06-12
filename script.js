@@ -43,6 +43,11 @@ function playGame() {
                 return console.log(`Computer Score : ${++computerScore}`);
             } else {
                 console.log("It's a draw!");
+                for (let i = 0; i < 1; i++) {
+                    const humanSelection = getHumanChoice();
+                    const computerSelection = getComputerChoice();
+                    playRound(humanSelection, computerSelection);
+                }
             }
     } else if(humanChoice.toLowerCase() === "scissors") {
         if(computerChoice === "rock") {

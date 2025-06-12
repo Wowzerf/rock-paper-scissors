@@ -70,6 +70,7 @@ function playGame() {
         console.log("You lose the match");
     } else if (humanScore === computerScore) {
         console.log("Final Score");
+        console.log(`Human Score : ${humanScore}`);
     }
 }
 playGame();

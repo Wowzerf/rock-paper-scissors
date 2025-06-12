@@ -71,6 +71,7 @@ function playGame() {
     } else if (humanScore === computerScore) {
         console.log("Final Score");
         console.log(`Human Score : ${humanScore}`);
+        console.log(`Computer Score : ${computerScore}`);
     }
 }
 playGame();

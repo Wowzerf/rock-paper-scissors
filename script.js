@@ -66,7 +66,7 @@ function playGame() {
     
     if(humanScore > computerScore) {
         console.log("You win the match!");
-    } else if(computerScore >= 3) {
+    } else if(computerScore > humanScore) {
         console.log("You lose the match");
     }
 }

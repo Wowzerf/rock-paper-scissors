@@ -49,6 +49,7 @@ function playGame() {
                 return console.log(`Computer Score : ${++computerScore}`);
             } else {
                 console.log("It's a draw!");
+                //Replay Round
                 for (let i = 0; i < 1; i++) {
                     const humanSelection = getHumanChoice();
                     const computerSelection = getComputerChoice();

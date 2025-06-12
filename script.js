@@ -72,6 +72,7 @@ function playGame() {
     } else if(computerScore > humanScore) {
         console.log("Final Score");
         console.log(`Computer Score : ${computerScore}`);
+        console.log(`Human Score : ${humanScore}`);
         console.log("You lose the match");
     } 
 }

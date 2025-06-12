@@ -53,6 +53,12 @@ function playGame() {
             return console.log(`Human Score : ${++humanScore}`);
         } else {
             console.log("It's a draw!");
+            //Replay Round
+            for (let i = 0; i < 1; i++) {
+            const humanSelection = getHumanChoice();
+            const computerSelection = getComputerChoice();
+            playRound(humanSelection, computerSelection);
+            }
         }
     }
     }

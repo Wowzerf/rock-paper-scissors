@@ -64,7 +64,7 @@ function playGame() {
         playRound(humanSelection, computerSelection);
     }
     
-    if(humanScore >= 3) {
+    if(humanScore > computerScore) {
         console.log("You win the match!");
     } else if(computerScore >= 3) {
         console.log("You lose the match");
